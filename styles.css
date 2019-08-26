@@ -50,4 +50,14 @@ body{
   .phoenixImg {
       height: 25em;
       width: 25em;
+      margin-top: 4em;
   }
+
+.links {
+    background-color: rgba(34, 35, 46, 0.692);
+    color: rgba(204, 186, 186);
+    width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column; 
+}
