@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fireTriangle {
+    width: 12em;
+    height: 10em;
+
+}
+
+.redHeader {
+    background-color: red;
+    box-sizing: border-box;
+    width: 100%
+}
+
+.darkFooter {
+    /* background-color: darkslategrey; */
+
+    text-align: center;
+    width: 100%;
+}
+
+body{ 
+    /* The image used */
+    background-image: url("./austin-chan-8NHL3OI5eWc-unsplash.jpg");
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .phoenixLetter {
+      /* color: #330F05; */
+      color: yellow;
+      font-size: 2.5em;
+  }
+
+  .phoenixImg {
+      height: 25em;
+      width: 25em;
+  }
